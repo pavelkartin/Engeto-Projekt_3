@@ -20,7 +20,7 @@ nebo pomocí příkazu **cd** (např. `cd D:\Programming\Python\engeto_project_3
 5. Spusťte program z příkazové řádky... Vložte potřebné argumenty: 
 - První argument je URL webové stránky, ze které chcete stahovat data.
 
-  Vyberte obec (**X**) na stránkách https://volby.cz/pls/ps2017nss/ps3?xjazyk=CZ
+  Vyberte okres (**X**) na stránkách https://volby.cz/pls/ps2017nss/ps3?xjazyk=CZ
 
   např. Česká Lípa má URL: *https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=7&xnumnuts=5101*
      
