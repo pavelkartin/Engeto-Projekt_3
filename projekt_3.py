@@ -78,7 +78,7 @@ def main(url: str, output_file: str) -> None:
         votes_table = get_rows_with_values(municipality_page)
         for political_party in votes_table:
             party_name_column = political_party.find("td", class_="overflow_name").text
-            valid_votes_number = int(political_party.find("td", headers=headers_pattern).text.replace("\xa0", ""))
+            valid_votes_number = political_party.find("td", headers=headers_pattern).text.replace("\xa0", "")
             municipality_data[party_name_column] = valid_votes_number
 
         district_data.append(municipality_data)
