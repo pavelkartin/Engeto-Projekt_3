@@ -18,10 +18,11 @@ nebo pomocí příkazu **cd** (např. `cd D:\Programming\Python\engeto_project_3
 4. Nainstalujte všechny potřebné knihovny pomocí příkazu `pip install -r requirements.txt`
 
 5. Spusťte program z příkazové řádky... Vložte potřebné argumenty: 
-- První argument je URL webové stránky, ze které chcete stahovat data. 
+- První argument je URL webové stránky, ze které chcete stahovat data.
 
-    Vyberte obec (**X**) na stránkách https://volby.cz/pls/ps2017nss/ps3?xjazyk=CZ
-
+  Vyberte obec (**X**) na stránkách https://volby.cz/pls/ps2017nss/ps3?xjazyk=CZ
+  např. Česká Lípa má URL: *https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=7&xnumnuts=5101*
+     
 ![exa](https://github.com/pavelkartin/Engeto-Projekt_3/assets/128692213/5c6b2cfc-0389-48fb-85f7-f6c1b1a6cb1c)
 
 - Druhý argument je název výstupního CSV souboru.
