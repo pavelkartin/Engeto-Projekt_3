@@ -58,6 +58,7 @@ def main(url: str, output_file: str) -> None:
     total_municipalities = len(municipalities_table)
     completed_municipalities = 0
 
+    # Získání dat z každé obce
     for municipality in municipalities_table:
         municipality_data = {}
 
@@ -73,6 +74,7 @@ def main(url: str, output_file: str) -> None:
         municipality_data[envelopes_column] = municipality_page.find("td", headers="sa5").text
         municipality_data[valid_column] = municipality_page.find("td", headers="sa6").text
 
+        # Získat data pro každého kandidáta
         votes_table = get_rows_with_values(municipality_page)
         for political_party in votes_table:
             party_name_column = political_party.find("td", class_="overflow_name").text
@@ -96,6 +98,7 @@ def main(url: str, output_file: str) -> None:
 if __name__ == "__main__":
     while True:
         try:
+            # Přidání argumentů
             parser = argparse.ArgumentParser(description="Scrap data from given URL and save it to a CSV file.")
             parser.add_argument('url', type=str, help="URL to scrap data from")
             parser.add_argument('output_file', type=str, help="Output CSV file name")
