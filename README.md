@@ -26,7 +26,7 @@ nebo pomocí příkazu **cd** (např. `cd D:\Programming\Python\engeto_project_3
 
 - Druhý argument je název výstupního CSV souboru.
 
-#### Vzor: `python projekt_3.py "https://volby.cz/pls/ps2017nss/ps311?xjazyk=CZ&xkraj=2&xnumnuts=2106" "melnik.csv"`
+#### Vzor: `python projekt_3.py "https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=2&xnumnuts=2106" "melnik.csv"`
 
 Program bude postupně stahovat data pro každou obec a bude vás informovat o svém průběhu. Po dokončení stahování uloží všechna data do CSV souboru.
 
