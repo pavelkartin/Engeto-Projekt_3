@@ -4,13 +4,13 @@ author: Pavel Kartin
 email: pevelkartin@seznam.cz
 discord: capitan_alex
 """
-import os
 
 from bs4 import BeautifulSoup as bs
 import requests
 import re
 import pandas as pd
 import argparse
+import os
 
 
 def main(url: str, output_file: str) -> None:
