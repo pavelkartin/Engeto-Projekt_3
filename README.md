@@ -1,5 +1,5 @@
-# Elections Scraper pro volby.cz
-Projekt 3 pro Engeto: Elections Scraper
+# Elections Scraper pro volby.cz  
+Projekt 3 pro Engeto: Elections Scraper  
 
 ## Co tento program dělá?
 Tento Python script stahuje data z voleb do Poslanecké sněmovny v roce 2017. **https://volby.cz/pls/ps2017nss/ps3?xjazyk=CZ**
@@ -9,13 +9,15 @@ Tento Python script stahuje data z voleb do Poslanecké sněmovny v roce 2017. *
 ## Jak ho používat?
 1. Stáhněte soubor **projekt_3.py** a **requirements.txt** a a vložte to do nějaké složky
 
-2. Otevřete konzoli přes adresní řádek 
-![cmd](https://github.com/pavelkartin/Engeto-Projekt_3/assets/128692213/108830bd-684e-4e2e-a509-23beeb7bd914)
+2. Otevřete konzoli přes adresní řádek
+   
+![cmd](https://github.com/pavelkartin/Engeto-Projekt_3/assets/128692213/108830bd-684e-4e2e-a509-23beeb7bd914)  
+
 nebo pomocí příkazu **cd** (např. `cd D:\Programming\Python\engeto_project_3`)
 
-3. Nainstalujte všechny potřebné knihovny pomocí příkazu `pip install -r requirements.txt`
+4. Nainstalujte všechny potřebné knihovny pomocí příkazu `pip install -r requirements.txt`
 
-4. Spusťte program z příkazové řádky a vložte potřebné argumenty. 
+5. Spusťte program z příkazové řádky a vložte potřebné argumenty. 
 - První argument je URL webové stránky, ze které chcete stahovat data. 
 
     Vyberte obec (**X**)
