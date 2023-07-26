@@ -83,7 +83,7 @@ def main(url: str, output_file: str) -> None:
 
         district_data.append(municipality_data)
 
-        # Po získání všech dat pro obec, inkrementace čítače
+        # Vypočítat procento pokroku
         completed_municipalities += 1
         percentage_completion = (completed_municipalities / total_municipalities) * 100
         print(f"{percentage_completion:.2f}%")
@@ -91,7 +91,6 @@ def main(url: str, output_file: str) -> None:
     # [ ULOŽENÍ ZÍSKANÝCH DAT DO CSV ]
     data_frame = pd.DataFrame(district_data)
     data_frame.to_csv(output_file, index=False, encoding="utf-8")
-
     print(f"Data saved to {output_file}")
 
 
