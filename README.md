@@ -17,7 +17,7 @@ nebo pomocí příkazu **cd** (např. `cd D:\Programming\Python\engeto_project_3
 
 4. Nainstalujte všechny potřebné knihovny pomocí příkazu `pip install -r requirements.txt`
 
-5. Spusťte program z příkazové řádky a vložte potřebné argumenty. 
+5. Spusťte program z příkazové řádky... Vložte potřebné argumenty: 
 - První argument je URL webové stránky, ze které chcete stahovat data. 
 
     Vyberte obec (**X**)
