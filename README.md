@@ -1,5 +1,5 @@
-# Elections Scraper pro volby.cz  
-Projekt 3 pro Engeto: Elections Scraper  
+# Engeto Projekt 3: Elections Scraper
+Webový scraper pro volby.cz  
 
 ## Co tento program dělá?
 Tento Python script stahuje data z voleb do Poslanecké sněmovny v roce 2017. **https://volby.cz/pls/ps2017nss/ps3?xjazyk=CZ**
